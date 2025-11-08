@@ -1,4 +1,3 @@
-
 from app.rps import determine_winner
 
 def test_winners():
