@@ -1,9 +1,7 @@
 # my_first_repo_fall_2025
-Learning and practicing controling
-Trying and experimenting
 
-more.content.
-#usage
+
+
 Create a virtual environment:
 
 ```sh
@@ -20,3 +18,19 @@ Install package dependencies:
 
 ```sh
 pip install -r requirements.txt
+
+## Testing
+
+Run tests:
+
+```sh
+pytest
+```
+
+#stocks dashboard
+python -m app.stocks
+
+
+
+
+
