@@ -13,17 +13,18 @@ def determine_winner(u, c):
     elif u == "rock" and c == "scissors":
         return "USER WINS"
     elif u == "paper" and c == "rock":
-        return "USER WINS" 
+        return "COMPUTER WINS" # OOPS
     elif u == "paper" and c == "paper":
         return "TIE GAME"
     elif u == "paper" and c == "scissors":
-        return "Computer WINS" # 
+        return "USER WINS" # OOPS
     elif u == "scissors" and c == "rock":
         return "COMPUTER WINS"
     elif u == "scissors" and c == "paper":
         return "USER WINS"
     elif u == "scissors" and c == "scissors":
         return "TIE GAME"
+    
 
 if __name__ == "__main__":
     #only run code the code below if we are running this script from the command line
